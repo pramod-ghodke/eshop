@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-login{
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    transition: 0.4s;
+    font-size: 14px;
+  }
+
+  .btn-login:hover{
+    transform: translateY(-5px);
+  }
+
+  .btn-signup{
+    font-size: 14px;
+    padding: 5px 11px;
+    background: transparent;
+    color: black;
+    border: 1px solid gray;
+    border-radius: 20px;
+    transition: 0.4s;
+  }
+
+  .btn-signup:hover{
+    background: transparent;
+    color: black;
+    transform: translateY(-5px);
+  }
+
+.icon-cart{
+  border: 1px solid blue;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.icon-right{
+  color: lightgray;
+}
+.icon-truck{
+background: blue;
+color: white;
+border-radius: 50%;
+padding: 5px;
+
+}
+
+input.form-control,
+select.form-select
+{
+  border-radius: 25px;
+ 
+}
+
+
+ 
+  .paymentWrap {
+    padding: 50px;
+  }
+
+
+  [type=radio] {
+    position: absolute;
+    opacity: 0;
+  }
+  
+  [type=radio]+img {
+   
+      cursor: pointer;
+      border: 1px solid lightgray;
+      border-radius: 20px;
+      margin: 5px;
+      padding: 8px 12px;
+  }
+  
+  
+ 
+  [type=radio]:checked + img{
+    border: 2px solid blue;
+  }
+
+.paywrap img{
+  margin: 0px;
+}
+
+.btn-del{
+  border-radius:20px ;
+}
+
+.code{
+  color: lightgray;
+}
+
+.total{
+  border-radius: 20px;
+  padding: 10px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.total .totaltext{
+  color: rgb(172, 169, 169);
+}
+.total .totalno{
+  color:black;
+}
+
+.btn-back{
+  background: transparent;
+  color: black;
+  border: none;
+  transition: 0.4s;
+}
+.btn-back:hover{
+  background: transparent;
+  color: black;
+  transform: translateX(-5px);
+}
+
+.btn-continue{
+  background: transparent;
+  color: black;
+  border: 1px solid gray;
+  border-radius: 20px;
+  transition: 0.3s;
+  font-size: 14px;
+}
+.btn-continue:hover{
+  background: transparent;
+  color: black;
+  transform: translateY(-4px);
+}
+
+.btn-proceed{
+  background: blue;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  transition: 0.3s;
+  font-size: 14px;
+}
+.btn-proceed:hover{
+transform: translateY(-4px);
+}
